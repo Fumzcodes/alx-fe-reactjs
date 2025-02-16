@@ -2,6 +2,7 @@ import WelcomeMessage from './components/WelcomeMessage'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+import UserProfile from './components/UserProfile'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -44,7 +45,9 @@ function App() {
           <div>
             <Footer />
           </div>
-      
+      <div>
+      <UserProfile name="Funmi" age="35" bio="Loves Dancing and Problemsolving" />
+      </div>
 
 
 export default App;
